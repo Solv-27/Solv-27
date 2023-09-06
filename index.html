@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Astronautas - Prueba con puntos </title>
+    <title>Prueba Kitchen AI</title>
     <style>
       #chart{
         overflow-y:auto;
@@ -12,16 +12,25 @@
       #chart svg{
         max-width: initial;
       }
+      .logo {
+        width: 200px; /* Ajusta el tamaño deseado */
+        height: 200px; /* Ajusta el tamaño deseado */
+        overflow: hidden;
+        border-radius: 50%; /* Esto crea el recorte en forma de círculo */
+      }
+    
+     .logo img {
+        width: 100%;
+        object-fit: cover; /* Esto ajusta la imagen al círculo */
+     }
     </style>
   </head>
   <body>
-    
+    <h1>iAssist</h1>
+    <div class="logo">
+      <img src="https://i.pinimg.com/originals/6d/93/30/6d933008bd5614e7c445454c69eb5d95.jpg">
+    </div>
+    <p>Esto es una prueba para ver que onda</p>
 
-    <div id="chart"></div>
-
-    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.2/iframeResizer.contentWindow.js"></script>
-    <script src="script.js"></script>
   </body>
 </html>
