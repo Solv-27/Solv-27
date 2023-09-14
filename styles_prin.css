@@ -1,0 +1,67 @@
+#chart{
+ overflow-y:auto;
+}
+#chart svg{
+  max-width: initial;
+}
+.logo {
+  width: 80px; /* Ajusta el tamaño deseado */
+  height: 80px; /* Ajusta el tamaño deseado */
+  overflow: hidden;
+  float: left;
+  border-radius: 50%; /* Esto crea el recorte en forma de círculo */
+}
+
+.logo img {
+  width: 100%;
+  object-fit: cover; /* Esto ajusta la imagen al círculo */
+}
+body {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #679B9B;
+  top: 0; 
+  width: 100%; 
+}
+
+.nombres{
+  color: #fef7f1;
+  font-size: 16px;
+  float: right;
+  padding-top: 18px;
+  padding-right: 12px;
+}
+
+.openbtn {
+  overflow: hidden;
+  float:left;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #679B9B;
+  color: #fef7f1;
+  padding: 10px 15px;
+  border: none;
+}
+
+.main {
+  margin-top: 30px; 
+}
+
+.red_alert {
+  margin-top:30px;
+  border: 2px solid #679B9B;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+  float: center;
+  justify-content: center;
+}
+
